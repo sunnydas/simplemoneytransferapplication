@@ -23,6 +23,10 @@ public class MoneyTFAccountUserDao implements UserDAO {
 
     private static Logger logger = LoggerFactory.getLogger(MoneyTFAccountUserDao.class);
 
+    public void setDbFacade(DBFacade dbFacade) {
+        this.dbFacade = dbFacade;
+    }
+
     private DBFacade dbFacade;
 
     public static final String insertUserSQL = "INSERT INTO ACCOUNT_USER (" +
