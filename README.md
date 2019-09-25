@@ -13,7 +13,7 @@ mvn exec:java
 
 ## Endpoint examples
 
-## 1.) Add user:
+###  Add user:
 
 POST http://localhost:4567/moneytfapp/accountusers
 
@@ -40,7 +40,7 @@ sample response
     "address": ""
 }
 
-## 2.) Add account
+### Add account
 
 POST http://localhost:4567/moneytfapp/account
 
@@ -67,7 +67,7 @@ sample response:
     "accountType": "savings"
 }
 
-## 3.) Transfer between accounts
+### Transfer between accounts
 
 POST http://localhost:4567/moneytfapp/transfer
 
@@ -89,7 +89,7 @@ sample response:
     "status": "SUCCESS"
 }
 
-## 4.) Update account balance
+### Update account balance
 
 PUT http://localhost:4567/moneytfapp/account
 
@@ -117,7 +117,7 @@ sample response:
     "accountType": "savings"
 }
 
-## 5.) Get account details
+### Get account details
 
 GET http://localhost:4567/moneytfapp/account/1
 
@@ -133,7 +133,7 @@ sample response:
     "accountType": "savings"
 }
 
-## 6.) Get user details
+### Get user details
 
 GET http://localhost:4567/moneytfapp/accountusers/1
 
